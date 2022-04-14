@@ -1,6 +1,9 @@
 import streamlit as st
 import pickle
 import numpy as np
+import pandas as pd
+import sklearn as sk
+
 
 st.markdown('### <center><i> Predicting Facebooks post share volume <br>based on mother page like count and week day of publishing</i></center><br><br>', unsafe_allow_html=True)
 #st.markdown('##### <center> Personal Challenge - Andrzej Krasnodebski', unsafe_allow_html=True)
