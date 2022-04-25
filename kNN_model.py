@@ -40,7 +40,7 @@ x = st.slider('How many likes does your Facebook page have ?', 0, 100000, 35600)
 st.write('You selected '+ str(x) + ' likes !')
 
 
-prediction = loaded_model.predict([[x,y]])*10000
+prediction = loaded_model.predict([[x,y]])*1000
 prediction = int(prediction)
 
 if st.button('Predict the share volume under this post!'):
