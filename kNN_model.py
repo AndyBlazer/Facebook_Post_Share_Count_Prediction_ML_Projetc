@@ -6,10 +6,10 @@ import sklearn as sk
 
 
 st.markdown('### <center><i> Predicting Facebooks post share volume <br>based on mother page like count and week day of publishing</i></center><br><br>', unsafe_allow_html=True)
-#st.markdown('##### <center> Personal Challenge - Andrzej Krasnodebski', unsafe_allow_html=True)
+st.markdown('##### <center> Personal Challenge - Andrzej Krasnodebski', unsafe_allow_html=True)
 #st.markdown('###### <center> 4146123', unsafe_allow_html=True)
-#st.markdown('###### <center>  Artificial Intelligence Specialization', unsafe_allow_html=True)
-#st.markdown('###### <center> <a href="https://fontys.edu/Bachelors-masters/Bachelors/Information-Communication-Technology-Eindhoven.htm">Fontys University of Applied Sciences</a>', unsafe_allow_html=True)
+st.markdown('###### <center>  Artificial Intelligence Specialization', unsafe_allow_html=True)
+st.markdown('###### <center> <a href="https://fontys.edu/Bachelors-masters/Bachelors/Information-Communication-Technology-Eindhoven.htm">Fontys University of Applied Sciences</a>', unsafe_allow_html=True)
 
 
 loaded_model = pickle.load(open('kNN_model.sav', 'rb'))
